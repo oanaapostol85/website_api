@@ -1,0 +1,11 @@
+= API
+
+== How to start
+```sh
+pip install --user quickweb
+quickweb run .
+```
+== How to test
+```
+curl http://0.0.0.0:8080/provider/register -d "email=EMAIL_ADDRESS"
+```
